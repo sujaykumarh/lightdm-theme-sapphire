@@ -1,0 +1,14 @@
+# Folders
+/vendor
+bbin/
+bin/
+coverage
+gh-pages/
+pkg/
+test/dest
+tmp/*
+
+# VS Code && jetbrains
+.idea
+.vscode
+.jsbeautifyrc
