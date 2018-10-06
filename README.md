@@ -1,6 +1,6 @@
 # Sapphire Theme
 
-### [DEMO](#)
+### [DEMO](https://sujaykumarh.github.io/sapphire/)
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 
@@ -9,13 +9,18 @@ This is a theme for LightDM Webkit2 ([`lightdm-webkit2-greeter`](https://github.
 
 #### How to Install
 
-Follow [wiki](#)
+Follow [wiki](https://github.com/Sujaykumarh/sapphire/wiki)
 
 #### Screenshots
 
-
-
-<br>
+Main View
+![Screenshot1](https://raw.githubusercontent.com/Sujaykumarh/sapphire/master/screenshot/Screenshot_1.png)
+Session Selection
+![Screenshot2](https://raw.githubusercontent.com/Sujaykumarh/sapphire/master/screenshot/Screenshot_2.png)
+User Selection
+![Screenshot3](https://raw.githubusercontent.com/Sujaykumarh/sapphire/master/screenshot/Screenshot_3.png)
+Alert
+![Screenshot4](https://raw.githubusercontent.com/Sujaykumarh/sapphire/master/screenshot/Screenshot_4.png)
 
 #### Features
 - Simple design
