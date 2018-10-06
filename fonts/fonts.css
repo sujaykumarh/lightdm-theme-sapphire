@@ -1,0 +1,76 @@
+@import url('font-awesome/all.css');
+
+@font-face{
+    font-family: 'Bai Jamjuree', sans-serif;
+    src: ('BaiJamjuree-Regular.ttf');
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Bai Jamjuree extraLight', sans-serif;
+    src: ('BaiJamjuree-ExtraLight.ttf');
+    font-style: normal;
+    font-weight: lighter;
+}
+
+@font-face{
+    font-family: 'Bai Jamjuree light', sans-serif;
+    src: ('BaiJamjuree-Light.ttf');
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face{
+    font-family: 'Bai Jamjuree medium', sans-serif;
+    src: ('BaiJamjuree-Medium.ttf');
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face{
+    font-family: 'Bai Jamjuree semiBold', sans-serif;
+    src: ('BaiJamjuree-SemiBold.ttf');
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face{
+    font-family: 'Bai Jamjuree', sans-serif;
+    src: ('BaiJamjuree-Bold.ttf');
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 100;
+    src: ('Lato-Hairline.ttf');
+}
+
+@font-face{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: ('Lato-Light.ttf');
+}
+
+@font-face{
+    font-family: 'Lato';
+    font-style: normal;
+    src: ('Lato-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: bold;
+    src: ('Lato-Bold.ttf');
+}
+
+@font-face{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    src: ('Lato-Black.ttf');
+}
