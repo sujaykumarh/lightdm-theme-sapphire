@@ -27,7 +27,7 @@ Alert
 
 ##### TODO
 
-1. Fix font issue
+1. ~~Fix font issue~~ Done: -> [5e9518d](https://github.com/Sujaykumarh/lightdm-theme-sapphire/commit/5e9518dc33f9aed1b5e9ef275d335394e49b15a5)
 2. Add Responsive 
 3. Add to [AUR](https://aur.archlinux.org)
 
