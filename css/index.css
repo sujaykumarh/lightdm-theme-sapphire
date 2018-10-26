@@ -21,6 +21,8 @@ body, head{
    font-weight: 300;
    color: #ffffff;
    cursor: default;
+   min-width: 800px;
+   min-height: 800px;
 }
 
 @keyframes shake{
@@ -176,7 +178,7 @@ body, head{
     height: 100%;
     background-image: linear-gradient(rgba(195, 175, 222, 0.8), rgba(60, 168, 187, 0.55)), url('../images/bg.png');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 /** LOGIN SECTION **/
@@ -276,7 +278,7 @@ body, head{
     margin: 10px;
     padding: 15px;
     font-size: .8rem;
-    font-family: initial;
+    font-family: 'Lato';
     border-radius: 5px;
     background: #555555;
     color: #ffffff;
@@ -343,7 +345,8 @@ body, head{
 }
 
 #login-username{
-    font-family: 'Bai Jamjuree light', sans-serif;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 300;
 }
 
 #login-users button:hover .name{
@@ -430,7 +433,8 @@ body, head{
 }
 
 #clock-time{
-    font-family: 'Bai Jamjuree extraLight', sans-serif;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 200;
     font-size: 8rem;
     padding-right: 80px;
 }
