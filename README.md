@@ -29,7 +29,10 @@ Alert
 
 1. ~~Fix font issue~~ Done: -> [5e9518d](https://github.com/Sujaykumarh/lightdm-theme-sapphire/commit/5e9518dc33f9aed1b5e9ef275d335394e49b15a5)
 2. Add Responsive 
-3. Add to [AUR](https://aur.archlinux.org)
+3. ~~Add to [AUR](https://aur.archlinux.org)~~ Done: -> [`lightdm-webkit2-theme-sapphire`](https://aur.archlinux.org/packages/lightdm-webkit2-theme-sapphire/)
+4. Add AutoLogin
+5. Add Support to use icon from path
+6. Add Comments
 
 ##### Tested On
 Arch Linux 1920 x 1080 display
