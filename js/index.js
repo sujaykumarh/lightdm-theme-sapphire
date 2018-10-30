@@ -19,6 +19,8 @@
 var _currentUserId = 0;
 var _currentUserSessionId = 0;
 var _snackbar;
+var _defaultUserImage = "images/user.png";
+
 $(document).ready(function () {
     // enable tooltip
     //$('[data-toggle="tooltip"]').tooltip();
@@ -29,6 +31,7 @@ $(document).ready(function () {
 
 function ThemeManager() {
     this.init();
+    //console.log('LightDM: ', window.lightdm);
 }
 
 ThemeManager.prototype = {
@@ -73,9 +76,9 @@ ThemeManager.prototype = {
                 var _sb_action = '<span class="snackbar-action">ACTION</span>';
 
                 $(_sb_content).html(message);
-                if(actionTitle){
+                if (actionTitle) {
                     $(_sb_action).html(actionTitle);
-                    $(_sb_action).click(function(){
+                    $(_sb_action).click(function () {
                         callback();
                     });
                     $(_sb_container).append(_sb_action);
@@ -83,7 +86,7 @@ ThemeManager.prototype = {
 
                 $(_sb_container).append(_sb_content);
                 $(this).append(_sb_container);
-                
+
                 var snackbar = this;
                 $(this).find('.snackbar-container').addClass('show').delay(2500).queue(function (next) {
                     $(snackbar).find('.snackbar-container').first().remove();
@@ -140,23 +143,31 @@ ThemeManager.prototype = {
             manager.showUsers();
         });
 
-        //ControlButtons
+        // Control Buttons
         var manager = this;
+        // ShutDown Button
+        if(!window.lightdm.can_shutdown) $('#control-shutdown').hide();
         $('#control-shutdown').click(function () {
             manager.createAlert("Shutdown", "Do you Want to shutdown System?", function () {
                 lightdm.shutdown();
             });
         });
+        // Hibernate Button
+        if(!window.lightdm.can_hibernate) $('#control-hibernate').hide();
         $('#control-hibernate').click(function () {
             manager.createAlert("Hibernate", "Do you Want to Hibernate System?", function () {
                 lightdm.hibernate();
             });
         });
+        // Suspend Button
+        if(!window.lightdm.can_suspend) $('#control-suspend').hide();
         $('#control-suspend').click(function () {
             manager.createAlert("Suspend", "Do you Want to Suspend System?", function () {
                 lightdm.suspend();
             });
         });
+        // Restart Button
+        if(!window.lightdm.can_restart) $('#control-restart').hide();
         $('#control-restart').click(function () {
             manager.createAlert("Restart", "Do you Want to Restart System?", function () {
                 lightdm.restart();
@@ -186,6 +197,7 @@ ThemeManager.prototype = {
         $('.input-password input').val('');
     },
     updateSessionId: function (pos) {
+        if (lightdm.users[pos].session === null) return; // retrun if no default session is set
         var _session = lightdm.users[pos].session.toLowerCase();
         _currentUserSessionId = lightdm.sessions.map(function (e) {
             return e.key;
@@ -202,7 +214,7 @@ ThemeManager.prototype = {
             return lightdm.sessions[_currentUserSessionId].name;
         },
         userImage: function () {
-            return lightdm.users[_currentUserId].image;
+            return (lightdm.users[_currentUserId].image !== null) ? lightdm.users[_currentUserId].image : _defaultUserImage;
         }
     },
     createAlert: function (title, message, callback) {
@@ -261,7 +273,7 @@ ThemeManager.prototype = {
         $(userBtn).attr('id', '');
         $(userBtn).find('span.name').html(user.display_name);
         $(userBtn).find('span.username').html(user.name);
-        $(userBtn).find('img').attr('src', user.image);
+        $(userBtn).find('img').attr('src', (user.image !== null) ? user.image : _defaultUserImage);
         $(userBtn).click(function () {
             $("#login").show();
             $("#login-users").hide();
