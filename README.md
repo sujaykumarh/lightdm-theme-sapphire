@@ -31,7 +31,7 @@ Alert
 2. Add Responsive 
 3. ~~Add to [AUR](https://aur.archlinux.org)~~ Done: -> [`lightdm-webkit2-theme-sapphire`](https://aur.archlinux.org/packages/lightdm-webkit2-theme-sapphire/)
 4. Add AutoLogin
-5. Add Support to use icon from path
+5. ~~Add Support to use icon from path~~ Done: -> [fa2b85f](https://github.com/Sujaykumarh/lightdm-theme-sapphire/commit/fa2b85f2ecf07a998c3ac75b552dc48a90ffcc20)
 6. Add Comments
 
 ##### Tested On
