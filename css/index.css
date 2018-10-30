@@ -22,7 +22,7 @@ body, head{
    color: #ffffff;
    cursor: default;
    min-width: 800px;
-   min-height: 800px;
+   min-height: 500px;
 }
 
 @keyframes shake{
