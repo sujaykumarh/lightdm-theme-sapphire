@@ -2,6 +2,56 @@
 
 @font-face {
     font-family: 'Lato';
+    src: url('Lato-Light.eot');
+    src: local('Lato-Light'),
+        url('Lato-Light.eot?#iefix') format('embedded-opentype'),
+        url('Lato-Light.woff2') format('woff2'),
+        url('Lato-Light.woff') format('woff'),
+        url('Lato-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bai Jamjuree';
+    src: url('BaiJamjuree-Regular.eot');
+    src: local('Bai Jamjuree Regular'), local('BaiJamjuree-Regular'),
+        url('BaiJamjuree-Regular.eot?#iefix') format('embedded-opentype'),
+        url('BaiJamjuree-Regular.woff2') format('woff2'),
+        url('BaiJamjuree-Regular.woff') format('woff'),
+        url('BaiJamjuree-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bai Jamjuree';
+    src: url('BaiJamjuree-Light.eot');
+    src: local('Bai Jamjuree Light'), local('BaiJamjuree-Light'),
+        url('BaiJamjuree-Light.eot?#iefix') format('embedded-opentype'),
+        url('BaiJamjuree-Light.woff2') format('woff2'),
+        url('BaiJamjuree-Light.woff') format('woff'),
+        url('BaiJamjuree-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bai Jamjuree';
+    src: url('BaiJamjuree-ExtraLight.eot');
+    src: local('Bai Jamjuree ExtraLight'), local('BaiJamjuree-ExtraLight'),
+        url('BaiJamjuree-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('BaiJamjuree-ExtraLight.woff2') format('woff2'),
+        url('BaiJamjuree-ExtraLight.woff') format('woff'),
+        url('BaiJamjuree-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+/*** Unused Fonts **/
+/*
+@font-face {
+    font-family: 'Lato';
     src: url('Lato-Regular.eot');
     src: local('Lato Regular'), local('Lato-Regular'),
         url('Lato-Regular.eot?#iefix') format('embedded-opentype'),
@@ -36,17 +86,6 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Bai Jamjuree';
-    src: url('BaiJamjuree-Light.eot');
-    src: local('Bai Jamjuree Light'), local('BaiJamjuree-Light'),
-        url('BaiJamjuree-Light.eot?#iefix') format('embedded-opentype'),
-        url('BaiJamjuree-Light.woff2') format('woff2'),
-        url('BaiJamjuree-Light.woff') format('woff'),
-        url('BaiJamjuree-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-}
 
 @font-face {
     font-family: 'Lato';
@@ -73,30 +112,6 @@
 }
 
 @font-face {
-    font-family: 'Lato';
-    src: url('Lato-Light.eot');
-    src: local('Lato-Light'),
-        url('Lato-Light.eot?#iefix') format('embedded-opentype'),
-        url('Lato-Light.woff2') format('woff2'),
-        url('Lato-Light.woff') format('woff'),
-        url('Lato-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Bai Jamjuree';
-    src: url('BaiJamjuree-Regular.eot');
-    src: local('Bai Jamjuree Regular'), local('BaiJamjuree-Regular'),
-        url('BaiJamjuree-Regular.eot?#iefix') format('embedded-opentype'),
-        url('BaiJamjuree-Regular.woff2') format('woff2'),
-        url('BaiJamjuree-Regular.woff') format('woff'),
-        url('BaiJamjuree-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'Bai Jamjuree';
     src: url('BaiJamjuree-Medium.eot');
     src: local('Bai Jamjuree Medium'), local('BaiJamjuree-Medium'),
@@ -119,16 +134,5 @@
     font-weight: 300;
     font-style: normal;
 }
-
-@font-face {
-    font-family: 'Bai Jamjuree';
-    src: url('BaiJamjuree-ExtraLight.eot');
-    src: local('Bai Jamjuree ExtraLight'), local('BaiJamjuree-ExtraLight'),
-        url('BaiJamjuree-ExtraLight.eot?#iefix') format('embedded-opentype'),
-        url('BaiJamjuree-ExtraLight.woff2') format('woff2'),
-        url('BaiJamjuree-ExtraLight.woff') format('woff'),
-        url('BaiJamjuree-ExtraLight.ttf') format('truetype');
-    font-weight: 200;
-    font-style: normal;
-}
+*/
 
