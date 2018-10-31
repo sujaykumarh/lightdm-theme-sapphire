@@ -1,17 +1,24 @@
 # Sapphire Theme
 
-### [DEMO](https://sujaykumarh.github.io/lightdm-theme-sapphire/)
-
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 
 This is a theme for LightDM Webkit2 ([`lightdm-webkit2-greeter`](https://github.com/Antergos/web-greeter))
 
+### [DEMO](https://sujaykumarh.github.io/lightdm-theme-sapphire/)
 
-#### How to Install
+To test the Login in DEMO select user and enter the same username as password. 
+
+eg: username: **superman** password: **superman**
+
+**ONLY FOR DEMO**
+
+<br>
+
+### How to Install
 
 Follow [wiki](https://github.com/Sujaykumarh/lightdm-theme-sapphire/wiki)
 
-#### Screenshots
+### Screenshots
 
 Main View
 ![Screenshot1](https://raw.githubusercontent.com/Sujaykumarh/lightdm-theme-sapphire/master/screenshot/Screenshot_1.png)
